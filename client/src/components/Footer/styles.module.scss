@@ -1,0 +1,28 @@
+@import "../../Styles/global-styles.scss";
+
+footer {
+    background-color: $blue;
+    padding: $space-md;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    padding: $space-md;
+}
+
+.author{
+    padding: $space-md;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    color: $white;
+    margin-left: $space-md;
+}
